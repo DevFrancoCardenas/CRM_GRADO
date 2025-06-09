@@ -1,0 +1,140 @@
+[
+    {
+        "idEspecialidad": "2",
+        "Especialidad": "Ciencias Basicas",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "21",
+        "Especialidad": "Ingeniería Agroindustrial",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "7",
+        "Especialidad": "Ingeniería Agronómica",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "20",
+        "Especialidad": "Ingeniería Ambiental",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "3",
+        "Especialidad": "Ingeniería Civil",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "8",
+        "Especialidad": "Ingeniería Comercial",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "9",
+        "Especialidad": "Ingeniería de Sistemas",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "4",
+        "Especialidad": "Ingeniería en Sistemas Electrónicos",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "470",
+        "Especialidad": "Ingeniería en Telecomunicaciones",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "1250",
+        "Especialidad": "Ingeniería Financiera",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "5",
+        "Especialidad": "Ingeniería Geográfica",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "6",
+        "Especialidad": "Ingeniería Industrial",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "726",
+        "Especialidad": "Ingeniería Mecatrónica",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "23",
+        "Especialidad": "Ingeniería Petrolera",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "2144",
+        "Especialidad": "LICENCIATURA EN DERECHO",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "1706",
+        "Especialidad": "TEC. SUP. EN DISEÑO GRÁFICO Y COMUNICACIÓN AUDIOVISUAL",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "467",
+        "Especialidad": "TEC. SUPERIOR EN INFORMATICA",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "2065",
+        "Especialidad": "Tec. Universitario Superior en Contabilidad General",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "11",
+        "Especialidad": "Tec.Sup. en Analisis de Sistemas",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "10",
+        "Especialidad": "Tec.Sup. en Programación de Sistemas",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "12",
+        "Especialidad": "Tec.Sup. en Sistemas Electronicos",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "1396",
+        "Especialidad": "TÉCNICO SUPERIOR EN ENERGÍAS RENOVABLES",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    },
+    {
+        "idEspecialidad": "1395",
+        "Especialidad": "TÉCNICO UNIVERSITARIO SUPERIOR EN CONSTRUCCIÓN CIVIL",
+        "UnidadAcademica": "La Paz",
+        "idUnidadAcademica": "1"
+    }
+]

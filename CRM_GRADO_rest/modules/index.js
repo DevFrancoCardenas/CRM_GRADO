@@ -1,0 +1,31 @@
+import express from 'express';
+import user from './user/index.js';
+import group from './group/index.js';
+import permission from './permission/index.js';
+import authGoogle from './authGoogle/index.js';
+import files from './storageGoogle/index.js';
+import unidades_academicas from './unidades_academicas/index.js';
+import carreras from './carreras/index.js';
+import tipo_de_seguimiento from './tipo_de_seguimiento/index.js';
+import metas from './metas/index.js';
+import atencion from './atencion/index.js';
+import seguimiento_plataforma from './seguimiento_plataforma/index.js';
+import importacion_de_datos from './importacion_de_datos/index.js';
+import mensajeria from './mensajeria/index.js';
+//imports
+const routes = express.Router();
+routes.use('/user', user);
+routes.use('/authGoogle', authGoogle);
+routes.use('/group', group);
+routes.use('/permission', permission);
+routes.use("/files", files);
+routes.use('/unidades_academicas', unidades_academicas);
+routes.use('/carreras', carreras);
+routes.use('/tipo_de_seguimiento', tipo_de_seguimiento);
+routes.use('/metas', metas);
+routes.use('/atencion', atencion);
+routes.use('/seguimiento_plataforma', seguimiento_plataforma);
+routes.use('/importacion_de_datos', importacion_de_datos);
+routes.use('/mensajeria', mensajeria);
+//functions
+export default routes;

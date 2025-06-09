@@ -1,0 +1,7 @@
+{
+  "name": "pwa_react",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

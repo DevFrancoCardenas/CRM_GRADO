@@ -1,0 +1,96 @@
+
+.side-menu {
+    width: 66px;
+
+    height: 100%;
+    transition: width 0.3s ease;
+    position: fixed;
+    /* Cambia según el estado */
+    z-index: 10;
+    color: white;
+    overflow-y: auto;
+}
+
+.w-65 {
+    width: 260px;
+    /* 65 * 4px = 260px, asumiendo que 1 unidad en Tailwind es 4px */
+}
+
+/* Estilos para la barra de desplazamiento */
+.side-menu::-webkit-scrollbar {
+    width: px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Color y opacidad del 'thumb' */
+    border-radius: 2px;
+    /* Redondez del 'thumb' */
+}
+
+.side-menu::-webkit-scrollbar-track {
+    background: transparent;
+    /* Fondo de la barra de desplazamiento */
+}
+
+.side-menu .flex-1 {
+    flex: 1;
+    /* Ocupa todo el espacio disponible */
+    min-width: 0;
+    /* Evita el desbordamiento */
+}
+
+.side-menu.expanded {
+    width: 260px;
+    height: 100%;
+    color: white;
+}
+
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.submenu.max-h-40 {
+    max-height: 40rem;
+}
+
+.submenu-icons {
+    display: none;
+}
+
+.submenu-icons.block {
+    display: block;
+}
+
+.border-top-right {
+    border-top: 2px solid;
+    max-width: 240px;
+    margin-left: auto;
+}
+
+.border-top-right-sub {
+    border-top: 1px solid;
+    max-width: 215px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.border-top-right-sub2 {
+    border-top: 0.2px solid;
+    max-width: 200px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.degraded-background {
+    background: linear-gradient(to bottom,
+            transparent,
+            rgba(249, 250, 251, 0.2)
+            /* bg-gray-50 con opacidad del 30% */
+        );
+}

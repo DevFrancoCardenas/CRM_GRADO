@@ -1,0 +1,53 @@
+.border-inner-dashed::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px dashed var(--ion-color-primary, #48BB78);
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.files-upload-container {
+    position: relative;
+    width: 100%;
+    background: var(--ion-item-background, #fff); /* Color de fondo para el tema claro */
+    color: var(--ion-text-color, #000);
+}
+
+/* Modo oscuro - no se necesita una media query específica ya que var(--ion-item-background) cambiará automáticamente */
+.files-upload-container {
+    background: var(--ion-item-background, #1e1e1e); /* Color de fondo para el tema oscuro */
+}
+
+.files-upload-container::-webkit-scrollbar-track {
+    background: var(--ion-background-color, #f1f1f1);
+}
+
+.files-upload-container::-webkit-scrollbar-thumb {
+    background: var(--ion-color-primary, #888);
+}
+
+.files-upload-container::-webkit-scrollbar-thumb:hover {
+    background: var(--ion-color-primary-tint, #555);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-content {
+    text-align: center;
+}
+
+.overlay-text {
+    font-size: 1.5em;
+    margin-top: 12px;
+    color: var(--ion-text-color, #fff);
+}
+
+.icon-style {
+    color: var(--ion-icon-color, #fff);
+}

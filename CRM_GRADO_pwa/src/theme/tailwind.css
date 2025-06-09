@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clases para colores */
+.bg-primary {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+}
+
+.bg-secondary {
+    background-color: var(--ion-color-secondary);
+    color: var(--ion-color-secondary-contrast);
+}
+
+.bg-tertiary {
+    background-color: var(--ion-color-tertiary);
+    color: var(--ion-color-tertiary-contrast);
+}
+
+.bg-success {
+    background-color: var(--ion-color-success);
+    color: var(--ion-color-success-contrast);
+}
+
+.bg-warning {
+    background-color: var(--ion-color-warning);
+    color: var(--ion-color-warning-contrast);
+}
+
+.bg-danger {
+    background-color: var(--ion-color-danger);
+    color: var(--ion-color-danger-contrast);
+}
+
+.bg-dark {
+    background-color: var(--ion-color-dark);
+    color: var(--ion-color-dark-contrast);
+}
+
+.bg-medium {
+    background-color: var(--ion-color-medium);
+    color: var(--ion-color-medium-contrast);
+}
+
+.bg-light {
+    background-color: var(--ion-color-light);
+    color: var(--ion-color-light-contrast);
+}
+
+/* Botón Primary */
+button.button-primary {
+    --background: var(--ion-color-primary);
+    --background-activated: var(--ion-color-primary-shade);
+    --background-focused: var(--ion-color-primary-tint);
+    --color: var(--ion-color-primary-contrast);
+}
+
+/* Botón Secondary */
+button.button-secondary {
+    --background: var(--ion-color-secondary);
+    --background-activated: var(--ion-color-secondary-shade);
+    --background-focused: var(--ion-color-secondary-tint);
+    --color: var(--ion-color-secondary-contrast);
+}
+
+/* Botón Tertiary */
+button.button-tertiary {
+    --background: var(--ion-color-tertiary);
+    --background-activated: var(--ion-color-tertiary-shade);
+    --background-focused: var(--ion-color-tertiary-tint);
+    --color: var(--ion-color-tertiary-contrast);
+}
+
+/* Botón Success */
+button.button-success {
+    --background: var(--ion-color-success);
+    --background-activated: var(--ion-color-success-shade);
+    --background-focused: var(--ion-color-success-tint);
+    --color: var(--ion-color-success-contrast);
+}
+
+/* Botón Warning */
+button.button-warning {
+    --background: var(--ion-color-warning);
+    --background-activated: var(--ion-color-warning-shade);
+    --background-focused: var(--ion-color-warning-tint);
+    --color: var(--ion-color-warning-contrast);
+}
+
+/* Botón Danger */
+button.button-danger {
+    --background: var(--ion-color-danger);
+    --background-activated: var(--ion-color-danger-shade);
+    --background-focused: var(--ion-color-danger-tint);
+    --color: var(--ion-color-danger-contrast);
+}
+
+/* Botón Light */
+button.button-light {
+    --background: var(--ion-color-light);
+    --background-activated: var(--ion-color-light-shade);
+    --background-focused: var(--ion-color-light-tint);
+    --color: var(--ion-color-light-contrast);
+}
+
+/* Botón Medium */
+button.button-medium {
+    --background: var(--ion-color-medium);
+    --background-activated: var(--ion-color-medium-shade);
+    --background-focused: var(--ion-color-medium-tint);
+    --color: var(--ion-color-medium-contrast);
+}
+
+/* Botón Dark */
+button.button-dark {
+    --background: var(--ion-color-dark);
+    --background-activated: var(--ion-color-dark-shade);
+    --background-focused: var(--ion-color-dark-tint);
+    --color: var(--ion-color-dark-contrast);
+}
+
+
+/* BOTONES ALERT */
+ion-alert.custom-alert {
+    --backdrop-opacity: 0.7;
+}
+
+.custom-alert .alert-button-group {
+    padding: 8px;
+}
+
+button.alert-button.alert-button-danger {
+    background-color: var(--ion-color-danger);
+    color: var(--ion-color-danger-contrast);
+}
+
+.md button.alert-button.alert-button-danger {
+    border-radius: 4px;
+}
+
+.ios .custom-alert button.alert-button {
+    border: 0.55px solid rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.2);
+}
+
+.ios button.alert-button.alert-button-cancel {
+    border-right: 0;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.ios button.alert-button.alert-button-danger {
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+}

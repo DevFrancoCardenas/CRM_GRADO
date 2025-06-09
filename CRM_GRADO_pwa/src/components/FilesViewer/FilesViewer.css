@@ -1,0 +1,47 @@
+.files-upload-container,
+.files-viewer-container { /* Se agregó .files-viewer-container para el nuevo componente */
+    position: relative;
+    width: 100%;
+    background: var(--ion-background-color, #fff);
+    color: var(--ion-text-color, #000);
+    border: 1px solid var(--ion-color-medium); /* Usando variables para el borde también */
+    border-radius: var(--ion-border-radius);
+    box-shadow: var(--ion-box-shadow);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .files-upload-container,
+  .files-viewer-container {
+    background: #2e2e2e; /* Esto es un gris medio para fondos en modo oscuro */
+    color: var(--ion-text-color, #fff);
+    border-color: var(--ion-color-medium-tint); /* Ajusta el color del borde en modo oscuro */
+  }
+
+  .icon-style {
+    color: var(--ion-icon-color, #fff);
+  }
+}
+
+/* Ajustes de scrollbar para adaptarse a los temas */
+.files-upload-container::-webkit-scrollbar,
+.files-viewer-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.files-upload-container::-webkit-scrollbar-track,
+.files-viewer-container::-webkit-scrollbar-track {
+    background: var(--ion-color-medium);
+}
+
+.files-upload-container::-webkit-scrollbar-thumb,
+.files-viewer-container::-webkit-scrollbar-thumb {
+    background: var(--ion-color-primary);
+}
+
+.files-upload-container::-webkit-scrollbar-thumb:hover,
+.files-viewer-container::-webkit-scrollbar-thumb:hover {
+    background: var(--ion-color-primary-tint);
+}
